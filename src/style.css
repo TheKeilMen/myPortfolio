@@ -1,0 +1,269 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+.nickname-container span {
+  font-size: xx-large;
+}
+
+.nickname-container {
+  justify-content: center;
+  margin-left: 130px;
+}
+
+.container {
+  padding: 20px;
+  background-color: peachpuff;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .nickname-container {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+  font-size: xx-large;
+  margin-right: 130px;
+}
+
+@media (max-width: 1300px) {
+  .links {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+}
+
+.links a {
+  color: black;
+}
+
+.info {
+  font-size: 24px;
+  width: 20em;
+}
+.info h1 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.info p {
+  max-width: 450px;
+  word-break: normal;
+}
+
+.frontender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: peachpuff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+  .frontender {
+    flex-direction: column;
+  }
+}
+
+.my-img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 450px;
+  width: 450px;
+  background-color: peru;
+  border-radius: 450px;
+}
+.connection {
+  background-color: peachpuff;
+  width: 350px;
+  height: 70px;
+  font-size: x-large;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1300px) {
+}
+
+.connection:hover {
+  background-color: peru;
+}
+
+.container-skills {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+@media (max-width: 1300px) {
+  .container-skills {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.ican {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.html-skill,
+.css-skill,
+.js-skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: darkblue;
+  color: aliceblue;
+  margin-bottom: 20px;
+  font-size: 5em;
+}
+
+.html-skill,
+.js-skill {
+  background-color: peru;
+}
+
+.skills {
+  background-color: peachpuff;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: peachpuff;
+}
+
+#my-projects {
+  padding: 40px;
+  font-size: 3em;
+}
+
+.project {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: baseline;
+  gap: 150px;
+}
+
+.project2 {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: baseline;
+  gap: 150px;
+  flex-direction: row-reverse;
+}
+
+.picture {
+  width: 400px;
+  height: 300px;
+  background-color: black;
+}
+
+.discription h1 {
+  font-size: 3em;
+}
+
+.discription span {
+  font-size: 24px;
+}
+
+@media (max-width: 1300px) {
+  .project {
+    align-items: start;
+    margin-right: 10%;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .project2 {
+    align-items: start;
+    margin-left: 10%;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: peachpuff;
+}
+
+#my-contacts {
+  font-size: 4em;
+  margin: 50px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+@media (max-width: 1300px) {
+  .contacts-container {
+    flex-direction: column;
+  }
+}
+
+.github,
+.telegram,
+.phonenumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  font-size: 2em;
+  background-color: peru;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.github,
+.phonenumber {
+  background-color: darkblue;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 250px;
+  background-color: gray;
+  border-radius: 30px;
+}
+
+.github a,
+.telegram a,
+.phonenumber .link {
+  margin-top: 60px;
+}
